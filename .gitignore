@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Experiment outputs
+runs/
+logs/
+*.log
+*.pth
+*.pth.tar
+events.out.tfevents.*
+attention_weights/
+attn_figures/
+attn_fig_v3/
+*.npz
+
+# Data (never commit slides / embeddings)
+*.svs
+*.ndpi
+data/embeddings/
+data/folds/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
