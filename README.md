@@ -34,7 +34,6 @@ PanSubNet/
 │   ├── dataset.py             WSIDataset — loads per-slide patch dicts
 │   ├── folds.py               fold-CSV parsing + per-task label logic
 │   ├── utils.py               metrics, meters, EarlyStopping
-│   └── data/excluded_patients.txt
 ├── scripts/
 │   ├── train.py                   train / cross-validate / evaluate one fold
 │   ├── extract_patch_embeddings.py  dump fused per-patch embeddings from a checkpoint
